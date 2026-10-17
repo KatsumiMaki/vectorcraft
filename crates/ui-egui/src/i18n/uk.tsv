@@ -226,7 +226,6 @@
 	Artboard:	Монтажна область:
 	Artboards	Монтажні області
 	ArtCraft Website	Веб-сайт ArtCraft
-	ArtCraft website	Веб-сайт ArtCraft
 	Artwork Colors	Кольори малюнка
 	As Multiple Assets	Як кілька ресурсів
 	As Single Asset	Як один ресурс
@@ -524,7 +523,6 @@
 	Coming soon — tracked in the parity plan	Незабаром відстежується в плані розвитку
 	Command Click to Select Objects Behind	Cmd+клацання для вибору об’єктів позаду
 	Command Dialog	Діалогове вікно команди
-	Community	Спільнота
 	Compatibility:	Сумісність:
 	Compatible Gradient and Gradient Mesh Printing	Сумісний друк градієнтів та градієнтних сіток
 	Complement	Додатковий
@@ -742,7 +740,6 @@
 	Discard Recovered Documents	Відкинути відновлені документи
 	Discard White Overprint in Output	Скасувати накладення білого під час виведення
 	Discarded {} recovered document(s)	Скасовано відновлених документів: {}
-	Discord	Discord
 	Discretionary Hyphen	М’яке перенесення
 	Discretionary Ligatures	Дискреційні лігатури
 	Display All Blacks Accurately	Відображати всі чорні точно
@@ -1422,8 +1419,6 @@
 	Japanese	Японська
 	Join	З’єднати
 	Join Our Discord	Приєднуйтесь до нашого Discord
-	Join our Discord	Приєднуйтесь до нашого Discord
-	Join the ArtCraft community on Discord (discord.gg/artcraft)	Приєднуйтесь до спільноти ArtCraft Discord (discord.gg/artcraft)
 	Join the lines of each paragraph	Поєднувати рядки кожного абзацу
 	Join Tool	Інструмент «З’єднання»
 	Justification…	Вирівнювання за шириною…
@@ -2904,7 +2899,6 @@ effect	Points	Точки
 	Sort by Kind	Сортувати за типом
 	Sort by Name	Сортувати за назвою
 	Sort by Status	Сортувати за:
-	Source code on GitHub	Вихідний код GitHub
 	Source Sans 3	Source Sans 3
 	Space After Paragraph	Інтервал після абзацу
 	Space Before Paragraph	Інтервал перед абзацом

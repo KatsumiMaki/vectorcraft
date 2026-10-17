@@ -4007,6 +4007,32 @@ mod tests {
     }
 
     #[test]
+    fn help_links_open_the_right_urls() {
+        use std::sync::{Arc, Mutex};
+
+        let opened = Arc::new(Mutex::new(vec![]));
+        let o = opened.clone();
+        let services = crate::Services { open_url: Some(Box::new(move |u: &str| o.lock().unwrap().push(u.to_string()))), ..Default::default() };
+        let mut app = VectorcraftApp::new(vectorcraft_engine::Session::new(), services);
+        for id in ["help.discord", "help.website", "help.appPage", "help.github"] {
+            invoke(&mut app, id, json!({}));
+        }
+        assert_eq!(
+            *opened.lock().unwrap(),
+            [
+                "https://discord.gg/artcraft",
+                "https://getartcraft.com",
+                "https://getartcraft.com/apps/vectorcraft",
+                "https://github.com/storytold/vectorcraft"
+            ]
+        );
+        // The control channel / MCP path returns the URL without opening a browser.
+        let v = app.run("help.discord", json!({})).unwrap();
+        assert_eq!(v["url"], "https://discord.gg/artcraft");
+        assert_eq!(opened.lock().unwrap().len(), 4);
+    }
+
+    #[test]
     fn hovering_another_title_switches_the_open_menu() {
         let mut app = VectorcraftApp::new(vectorcraft_engine::Session::new(), crate::Services::default());
         let ctx = egui::Context::default();

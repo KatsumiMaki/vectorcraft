@@ -334,7 +334,6 @@
 	Artboards	Rajztáblák
 	Artboards: {n}	Rajztáblák: {n}
 	ArtCraft Website	Az ArtCraft webhelye
-	ArtCraft website	Az ArtCraft webhelye
 	Artwork Colors	Grafika színei
 	As Multiple Assets	Több elemként
 	As Single Asset	Egy elemként
@@ -707,7 +706,6 @@
 	Command Dialog	Parancs párbeszédablaka
 	Commenting, filling in form fields and signing	Megjegyzések, űrlapmezők kitöltése és aláírás
 	Commits	Commitok
-	Community	Közösség
 	Company	Cég
 	Compatibility:	Kompatibilitás:
 	Compatible Gradient and Gradient Mesh Printing	Kompatibilis színátmenet- és hálónyomtatás
@@ -987,7 +985,6 @@
 	Discard Recovered Documents	Helyreállított dokumentumok elvetése
 	Discard White Overprint in Output	Fehér felülnyomás elvetése a kimenetben
 	Discarded {} recovered document(s)	Elvetett helyreállított dokumentumok: {}
-	Discord	Discord
 	Discretionary Hyphen	Feltételes elválasztójel
 	Discretionary Ligatures	Választható ligatúrák
 	Display All Blacks Accurately	Minden fekete pontos megjelenítése
@@ -1804,8 +1801,6 @@
 	Japanese	Japán
 	Join	Összekapcsolás
 	Join Our Discord	Csatlakozz a Discordunkhoz
-	Join our Discord	Csatlakozz a Discordunkhoz
-	Join the ArtCraft community on Discord (discord.gg/artcraft)	Csatlakozz az ArtCraft-közösséghez a Discordon (discord.gg/artcraft)
 	Join the lines of each paragraph	Bekezdések sorainak összefűzése
 	Join Tool	Összekapcsolás
 	Joins	Csatlakozások
@@ -3504,7 +3499,6 @@
 	Sort by Name	Rendezés név szerint
 	Sort by Popularity	Rendezés gyakoriság szerint
 	Sort by Status	Rendezés állapot szerint
-	Source code on GitHub	Forráskód a GitHubon
 	Source Image	Forráskép
 	Source Sans 3	Source Sans 3
 	Space After Paragraph	Térköz a bekezdés után
